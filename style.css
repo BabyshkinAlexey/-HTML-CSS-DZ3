@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(./img/Travel\ Time.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 1024px;
+}
+
+.header {
+  padding-top: 73px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 128px;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+}
+
+li {
+  list-style-type: Poppins, sans-serif;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  -webkit-text-stroke: 1px #000000;
+}
+
+h1 {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 96px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  -webkit-text-stroke: 1px #000000;
+  width: 577px;
+  height: 144px;
+  top: 210px;
+  left: 412px;
+  border: 1px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 101px;
+  align-items: center;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-family: Poppins;
+  text-transform: lowercase;
+  font-size: 24px;
+  font-weight: 275;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  width: 600px;
+  height: 72px;
+  top: 344px;
+  left: 326px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 191px;
+  height: 60px;
+  background-color: #2ea44f;
+  border-radius: 8px;
+  box-shadow: 0px 0px 0px 4px #fee4e2;
+  box-shadow: 0px 1px 2px 0px #d2dbec0d;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  padding: 16px, 28px, 16px, 28px;
+  position: relative;
+  text-align: center;
+  gap: 12px;
+}
+.pipka {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 101px;
+  align-items: center;
+  height: 700px;
+}
